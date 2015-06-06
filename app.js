@@ -35,6 +35,12 @@ var appUI = {
     		appUI.replymsg("456")
     	else if(texr=="456") 
     		appUI.replymsg("4562")
+    	else if(texr=="你是谁？") 
+    		appUI.replymsg("你是我至尊无上宇宙无敌最美丽妖艳的主人(跪拜)。")
+    	else if(texr=="你是男的？") 
+    		appUI.replymsg("我是一只小鸡啊")
+    	else if(texr=="吃什么那？") 
+    		appUI.replymsg("翠花上酸菜。")
     	else if(texr=="jokeme") 
     		appUI.replymsg("一男子在闹市骑摩托撞昏了一个陌生的老汉！ 男子惊吓的不知所措！围观群众越来越多！突然，该男抱住老汉，声泪俱下的喊道：“爹，你等着我，我这就去给你找医生！”说后，就跑掉了。。。老汉挣扎着愤怒的喊道：“给老子回来！”众人纷纷感慨：“这儿子当的真孝顺！” ")
     	else if(texr=="心理暗示") {
