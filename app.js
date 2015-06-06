@@ -21,6 +21,7 @@ var appUI = {
     say : function(text) {
     		dialog = $("#dialog").html() ;
     		$("#dialog").html(dialog + "</br>" +"我："+ text) ;
+    		return text;
     },
     replymsg : function(text) {
         		dialog = $("#dialog").html() ;
@@ -35,9 +36,9 @@ var appUI = {
     	else if(texr=="456") 
     		appUI.replymsg("4562")
     	else if(texr=="jokeme") 
-    		appUI.replymsg("789")
-    	else if(texr=="心理暗示") 
-    		appUI.replymsg("接下来的题目有很强心理暗示作用。。。 很神奇！揭下来 请用自己最快的速度心算下面各题 ")
+    		appUI.replymsg("一男子在闹市骑摩托撞昏了一个陌生的老汉！ 男子惊吓的不知所措！围观群众越来越多！突然，该男抱住老汉，声泪俱下的喊道：“爹，你等着我，我这就去给你找医生！”说后，就跑掉了。。。老汉挣扎着愤怒的喊道：“给老子回来！”众人纷纷感慨：“这儿子当的真孝顺！” ")
+    	else if(texr=="心理暗示") {
+    		appUI.replymsg("接下来的题目有很强心理暗示作用。。。 很神奇！接下来 请用自己最快的速度心算下面各题 ")
     		setTimeout(function(){appUI.replymsg("2+2＝? ")},4000)
     		setTimeout(function(){appUI.replymsg("4+4＝?  ")},6000)
     		setTimeout(function(){appUI.replymsg("8+8＝?  ")},8000)
@@ -54,7 +55,8 @@ var appUI = {
     		setTimeout(function(){appUI.replymsg("现在持续默念 6 这个数字15秒，然后往下卷动画面！ ")},36000)
     		setTimeout(function(){appUI.replymsg("快！想一个蔬菜的名字！然后继续往下卷动作！ ")},51000)
     		setTimeout(function(){appUI.replymsg("*你想的是大白菜，对吧！如果不是，你是占2%可以在正常情形下 还可以有余力思考别的事的少数人口，98%的人会回答大白菜。诡异哦！听说这个测验 是从爱丽丝梦游仙境中兔子国翻译的…… ")},58000)
-    }
+    	} 
+    	else{appUI.replymsg("I am sorry 我不知道你在说什么 ")}}
 };
 $(document).ready(function() {
 	appUI.initialize() ;
