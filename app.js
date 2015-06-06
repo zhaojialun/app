@@ -47,6 +47,10 @@ var appUI = {
     		appUI.replymsg("众里寻她千百度，那人却在灯火阑珊处。")
     	else if(texr=="bipt") 
     		appUI.replymsg("是你家啊？")
+    		else if(texr=="么么哒") 
+    		appUI.replymsg("么么哒")
+    		else if(texr=="你家在哪里") 
+    		appUI.replymsg("我家在北京")
     	else if(texr=="北京") 
     		appUI.replymsg("我爱首都天安门！")
     	else if(texr=="心理暗示") {
