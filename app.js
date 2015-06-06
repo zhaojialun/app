@@ -43,6 +43,12 @@ var appUI = {
     		appUI.replymsg("翠花上酸菜。")
     	else if(texr=="jokeme") 
     		appUI.replymsg("一男子在闹市骑摩托撞昏了一个陌生的老汉！ 男子惊吓的不知所措！围观群众越来越多！突然，该男抱住老汉，声泪俱下的喊道：“爹，你等着我，我这就去给你找医生！”说后，就跑掉了。。。老汉挣扎着愤怒的喊道：“给老子回来！”众人纷纷感慨：“这儿子当的真孝顺！” ")
+    	else if(texr=="你的理想是什么？") 
+    		appUI.replymsg("众里寻她千百度，那人却在灯火阑珊处。")
+    	else if(texr=="bipt") 
+    		appUI.replymsg("是你家啊？")
+    	else if(texr=="北京") 
+    		appUI.replymsg("我爱首都天安门！")
     	else if(texr=="心理暗示") {
     		appUI.replymsg("接下来的题目有很强心理暗示作用。。。 很神奇！接下来 请用自己最快的速度心算下面各题 ")
     		setTimeout(function(){appUI.replymsg("2+2＝? ")},4000)
