@@ -51,6 +51,8 @@ var appUI = {
     		appUI.replymsg("么么哒")
     		else if(texr=="你家在哪里") 
     		appUI.replymsg("我家在北京")
+    		else if(texr=="你在哪里") 
+    		appUI.replymsg("我在火星")
     		else if(texr=="How are you？") 
     		appUI.replymsg("I'm fine!")
     		else if(texr=="快结课了") 
