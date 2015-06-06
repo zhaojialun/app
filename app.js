@@ -51,6 +51,10 @@ var appUI = {
     		appUI.replymsg("么么哒")
     		else if(texr=="你家在哪里") 
     		appUI.replymsg("我家在北京")
+    		else if(texr=="How are you？") 
+    		appUI.replymsg("I'm fine!")
+    		else if(texr=="快结课了") 
+    		appUI.replymsg("真好啊")
     	else if(texr=="北京") 
     		appUI.replymsg("我爱首都天安门！")
     	else if(texr=="心理暗示") {
